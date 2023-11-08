@@ -85,3 +85,4 @@ VISUAL STUDIO CODE - Darmowy edytor kodu źródłowego z kolorowaniem składni d
 GITHUB - hostingowy serwis internetowy przeznaczony do projektów programistycznych wykorzystujących system kontroli wersji 
 
 CHATGPT - AI które pomaga w tworzeniu różnych kodów
+
