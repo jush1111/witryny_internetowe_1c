@@ -1,0 +1,67 @@
+
+
+zad egz
+Zadanie 1.
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitionnal//EN">
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html"; charset=iso-8859-2">
+</head>
+<body>
+    ą ć ę ł ń ó ś ż ź Ą Ć Ę Ł Ń Ó Ś Ż Ź
+</body>
+</html>
+
+
+zad 1
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tytuł FilipP</title>
+</head>
+<body>
+    <h1>FilipP</h1>
+    <h1>treść strony</h1>
+</body>
+</html>
+<html>
+</head>
+</body>
+</html>
+
+zad 2
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <title>tytuł FilipP</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    To jest moja strona
+</body>
+</html>
+
+Zadanie 3.
+1.W języku HTML
+2.Przykład do zadania
+3."utf-8"
+
+zad4
+1XHTML
+2przyklad do zadania
+3 za pomoca meta
+
+Test 2.
+Zadanie 1.
+C.
+Zadanie2.
+C.
+Zadanie 3.
+D.
+Zadanie 4.
+A.
+Zadanie 5.
+A.
