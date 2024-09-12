@@ -1,0 +1,23 @@
+
+*{
+    background-color: greenyellow;
+}
+
+
+.kolor{
+    color:rgb(96, 61, 180);
+}
+.margines{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100;
+    width: 300px;
+    height: 100px;
+    
+}
+.tekst{
+    margin-left: 50px;
+    margin-right: 50px;
+    
+}
+
