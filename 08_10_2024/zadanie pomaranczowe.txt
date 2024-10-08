@@ -1,0 +1,27 @@
+zad 1
+
+
+rok powstania JS : 1995 PHP: 1994
+główny artur  JS : Brendan Eich  PHP : Rasmusa Lerdorfa
+wykonywany po stronie klienta/serwera JS: klienta PHP; serwera 
+numer ostatniej wersji JS: ECMAScript 2024 (czerwiec 2024) [±] PHP: 	8.3.10 (1 sierpnia 2024)
+
+
+zad 2 
+
+zalety:
+ Są one wykonywane natychmiastowo, co oznacza, że ​​zmiany w interfejsie użytkownika są od razu widoczne. 
+ Skrypty po stronie klienta pozwalają również na interakcję użytkownika z witryną, dzięki czemu strony internetowe stają się bardziej dynamiczne i interaktywne.
+ wady:
+ mogą być podatne na ataki, takie jak wstrzykiwanie kodu i kradzież danych.
+
+ zad 3
+
+ zalety:
+ są bardziej elastyczne. Pozwalają na dostęp do baz danych, manipulację danymi, generowanie dynamicznych treści i wiele innych zaawansowanych operacji
+ wady:
+  każde żądanie musi być przetworzone przez serwer, co może prowadzić do dłuższego czasu odpowiedzi
+
+
+  zad 5
+  program wczyta liczby od uzytkownika  oraz je zapisze pierwsza pod a durga pod b potem je ze soba doda i wyslieta a jak jest mniejsze od b a jak nei to wyswietla b 
