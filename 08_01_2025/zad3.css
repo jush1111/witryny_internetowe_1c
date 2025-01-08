@@ -1,0 +1,11 @@
+.third{
+    width: 100%;
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    z-index: 1000 ;
+}

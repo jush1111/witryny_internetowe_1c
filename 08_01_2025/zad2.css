@@ -1,0 +1,9 @@
+.second{
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    position: relative;
+    top: 100px;
+    left: 50px;
+    margin: auto;
+}
