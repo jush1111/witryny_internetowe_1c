@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odczyt danych z formularza</title>
+</head>
+<body>
+    <form id="myform">
+    <label for="name">imie:</label>
+    <input type="text" id="name" name="name">
+    <button type="button" oneclick="readData()"> pokaz dane </button>
+    </form>
+
+    <p id="output"></p>
+
+    <script>
+        function readData() {
+            let nameValue = document.getElementById("name").value;
+            document.getElementById("output").innerText = "wpisane imie"  + nameValue;
+        }
+    </script>
+</body>
+</html>

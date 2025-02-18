@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button oneclick+="alert('kliknieto!')" >kliknij mnie</button>
+
+    <button id="myButton">kliknij mnie </button>
+    <script>
+        document.getElementById("myButton").addEventListener("click", function() {
+            alert("przycisk klikniety!");
+        });
+    </script>
+    <button id="myButton">kliknij mnie </button>
+    <script>
+        let button = document.getElementById("mybutton");
+        button.onclick = function() {
+            alert("przycisk klikniety!");
+        };
+    </script>
+
+    <div id="box" style="width: 100px; height: 100px; background-color: blue;"></div>
+    <script>
+        let box = document.getElementById("box");
+        box.addEventListener("mouseover" , function() {
+            box.style.backgroundColor = "red";
+        });
+        box.addEventListener("mousetout", function() {
+            box.style.backgroundColor = "blue";
+        });
+    </script>
+
+    <input type="text" id="myInput"> 
+    <script> 
+    document.getElementById("myInput").addEventListener("keydown", function(event) { 
+    console.log("Naciśnięto klawisz: " + event.key); 
+    }); 
+    </script>
+
+    <form id="myForm"> 
+    <input type="text" name="username"> 
+    <button type="submit">Wyślij</button> 
+    </form> 
+    <script> 
+    document.getElementById("myForm").addEventListener("submit", function(event) { 
+    event.preventDefault(); // Zapobiega domyślnemu wysłaniu formularza 
+    alert("Formularz wysłany!"); 
+    }); 
+</script>
+
+<script> 
+    window.addEventListener("scroll", function() { 
+    console.log("Przewijasz stronę!"); 
+    }); 
+    </script>
+
+    <ul id="myList">
+    <li>kliknij mnie</li>
+    <li>kliknij mnie</li>
+    <li>kliknij mnie</li>
+    </ul>
+    <script>
+        document.getElementById("myList").addEventListener("click", function(event) {
+            if(event.target.tagName === "LI") {
+
+            }
+        });
+    </script>
+</body>
+</html>

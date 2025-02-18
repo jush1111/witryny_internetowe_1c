@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Przykład</title>
+</head>
+<body>
+    <input type="text" id="myInput" placeholder="Wpisz coś...">
+    <p id="myParagraph"></p>
+
+    <script>
+        document.getElementById("myInput").addEventListener("input", function() {
+            var inputValue = document.getElementById("myInput").value;
+            document.getElementById("myParagraph").innerText = inputValue;
+        });
+    </script>
+</body>
+</html>
