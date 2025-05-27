@@ -1,0 +1,8 @@
+kwarenda 1
+SELECT pseudonim FROM zawodnicy WHERE data_zdobycia BETWEEN '2020-07-01' AND '2020-07-31';
+kwarenda 2
+SELECT pseudonim, tytul FROM zawodnicy WHERE klasa = '3A' AND tytul IS NOT NULL AND tytul != ' ';
+kwarenda 3
+SELECT pseudonim, klasa, ranking FROM zawodnicy ORDER BY ranking ASC LIMIT 10;
+kwarenda 4
+SELECT pseudonim, data_zdobycia, DATEDIFF(CURDATE(), data_zdobycia) AS dni FROM zawodnicy WHERE tytul IS NOT NULL AND tytul !='';
